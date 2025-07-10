@@ -246,13 +246,10 @@ p {
 }
 
 .logo {
-    font-family: var(--font-display);
+     font-family: var(--font-display);
     font-size: 2rem;
     font-weight: 800;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: black; /* This line controls the color */
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
